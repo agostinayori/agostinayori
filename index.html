@@ -22,5 +22,24 @@
     <h2>🎮 Why I keep coming back to Dark Souls</h2>
     <p>I don’t know if it’s the haunting atmosphere, the thrill of beating what once felt impossible, the satisfaction of overcoming frustration, or just me getting attached to pain and calling it nostalgia.</p>
   </div>
+    <!-- Último script para filtrar -->
+  <script>
+    const filterLinks = document.querySelectorAll('nav a');
+    const posts = document.querySelectorAll('.post');
+
+    filterLinks.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const filter = link.getAttribute('data-filter');
+        posts.forEach(post => {
+          if (filter === 'all' || post.classList.contains(filter)) {
+            post.style.display = 'block';
+          } else {
+            post.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
