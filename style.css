@@ -1,8 +1,8 @@
 body {
   font-family: 'Figtree', sans-serif;
   font-weight: 400;
-  background-color: #f6f0fa;
-  color: #333;
+  background-color: #121212;
+  color: #f1f1f1;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
@@ -13,16 +13,16 @@ h1 {
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: #1e1e1e;
   padding: 1rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #333;
 }
 
 nav a {
   margin-right: 15px;
   text-decoration: none;
-  color: #4b0082;
+  color: #bb86fc;
   font-weight: bold;
 }
 
@@ -30,15 +30,15 @@ nav a:hover {
   text-decoration: underline;
 }
 .post {
-  background-color: white;
+  background-color: #1e1e1e;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
   margin-bottom: 2rem;
   transition: all 0.2s ease-in-out;
 }
 .post:hover {
   transform: scale(1.015);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
   transition: all 0.2s ease-in-out;
 }
