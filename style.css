@@ -34,4 +34,10 @@ nav a:hover {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+.post:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease-in-out;
 }
