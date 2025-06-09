@@ -95,3 +95,22 @@ body.light .post:hover {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
 }
+#modeToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 0.6rem 1rem;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+#modeToggle:hover {
+  background-color: #bb86fc;
+  color: black;
+}
