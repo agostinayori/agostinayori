@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <button id="modeToggle" style="float: right; margin-bottom: 1rem;">☀️ Light mode</button>
   <nav>
   <a href="#" data-filter="all">All</a>
   <a href="#" data-filter="videogame">Videogames</a>
@@ -53,6 +54,25 @@
         });
       });
     });
+  });
+</script>
+  <script>
+  const toggleButton = document.getElementById('modeToggle');
+  const body = document.body;
+
+  // default: modo oscuro
+  body.classList.add('dark');
+
+  toggleButton.addEventListener('click', () => {
+    if (body.classList.contains('dark')) {
+      body.classList.remove('dark');
+      body.classList.add('light');
+      toggleButton.textContent = '🌙 Dark mode';
+    } else {
+      body.classList.remove('light');
+      body.classList.add('dark');
+      toggleButton.textContent = '☀️ Light mode';
+    }
   });
 </script>
 </body>
