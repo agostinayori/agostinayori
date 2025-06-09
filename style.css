@@ -1,4 +1,5 @@
-body {
+/* Modo oscuro */
+body.dark {
   font-family: 'Figtree', sans-serif;
   font-weight: 400;
   background-color: #121212;
@@ -8,29 +9,30 @@ body {
   padding: 2rem;
 }
 
-h1, h2 {
+body.dark h1, body.dark h2 {
   color: #bb86fc;
   font-weight: 600;
 }
 
-nav {
+body.dark nav {
   background-color: #1e1e1e;
   padding: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid #333;
 }
 
-nav a {
+body.dark nav a {
   margin-right: 15px;
   text-decoration: none;
   color: #bb86fc;
   font-weight: bold;
 }
 
-nav a:hover {
+body.dark nav a:hover {
   text-decoration: underline;
 }
-.post {
+
+body.dark .post {
   background-color: #2a2a2a;
   padding: 1.5rem;
   border-radius: 12px;
@@ -38,8 +40,58 @@ nav a:hover {
   margin-bottom: 2rem;
   transition: all 0.2s ease-in-out;
 }
-.post:hover {
+
+body.dark .post:hover {
   transform: scale(1.015);
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Modo claro */
+body.light {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body.light h1, body.light h2 {
+  color: #bb86fc;
+  font-weight: 600;
+}
+
+body.light nav {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+body.light nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: bold;
+}
+
+body.light nav a:hover {
+  text-decoration: underline;
+}
+
+body.light .post {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+body.light .post:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
 }
