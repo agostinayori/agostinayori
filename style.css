@@ -8,8 +8,9 @@ body {
   padding: 2rem;
 }
 
-h1 {
-  color: #4b0082;
+h1, h2 {
+  color: #bb86fc;
+  font-weight: 600;
 }
 
 nav {
@@ -30,7 +31,7 @@ nav a:hover {
   text-decoration: underline;
 }
 .post {
-  background-color: #1e1e1e;
+  background-color: #2a2a2a;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
@@ -39,6 +40,6 @@ nav a:hover {
 }
 .post:hover {
   transform: scale(1.015);
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
   transition: all 0.2s ease-in-out;
 }
