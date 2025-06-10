@@ -114,3 +114,12 @@ body.light .post:hover {
   background-color: #bb86fc;
   color: black;
 }
+.post a {
+  color: #bb86fc;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.post a:hover {
+  color: #d3aaff;
+}
