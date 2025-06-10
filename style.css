@@ -51,6 +51,20 @@ body.dark .post:hover {
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
   transition: all 0.2s ease-in-out;
 }
+body.dark .video {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+body.dark .video:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
+}
 
 /* Modo claro */
 body.light {
@@ -109,6 +123,19 @@ body.light .playlist {
   background-color: #ffffff;
   color: #121212;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+body.light .video {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+body.light .video:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 #modeToggle {
   position: fixed;
