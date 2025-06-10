@@ -133,3 +133,12 @@ body.light .post:hover {
 .post a:hover {
   color: #d3aaff;
 }
+.playlist {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
