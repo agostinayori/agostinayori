@@ -17,9 +17,11 @@
   <a href="#" data-filter="photos">Photos</a>
   <a href="#" data-filter="other">Other rabbit holes</a>
 </nav>
+  <div class="intro-wrapper">
   <h1>Fueled by Curiosity.</h1>
   <h2>No Map, All Side Quests.</h2>
   <p>Welcome to my corner of the internet, home to thoughts and favorites. Just me, oversharing everything from games to human consciousness</p>
+</div>
 
   <div class="post videogame">
     <h2>🎮 Why do I keep coming back to Dark Souls?</h2>
@@ -103,6 +105,7 @@
 </div>
   <script>
   const playlistWrapper = document.querySelector('.playlist-wrapper');
+  const introWrapper = document.querySelector('.intro-wrapper');
 
   // mismo script que ya tengo para los filtros
   const filterLinks = document.querySelectorAll('nav a');
@@ -131,6 +134,13 @@
       }
     });
   });
+    if (introWrapper) {
+  if (filter === 'all') {
+    introWrapper.style.display = 'block';
+  } else {
+    introWrapper.style.display = 'none';
+  }
+}
 </script>
 </body>
 </html>
