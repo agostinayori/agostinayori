@@ -226,3 +226,37 @@ body.light .video-link:hover {
   background-color: #4b0082;
   color: white;
 }
+.like-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.like-button {
+  background-color: #7b4bb7; /* violetita */
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.like-button:hover {
+  transform: scale(1.08);
+}
+
+body.light .like-button {
+  background-color: #c6a6ff; /* un violetita claro para light mode */
+  color: black;
+}
+
+.like-count {
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 1;
+}
