@@ -147,27 +147,5 @@
     });
   });
 </script>
-  <script>
-  const likeButton = document.getElementById('likeButton');
-  const likeCount = document.getElementById('likeCount');
-
-  // Obtener la cantidad actual de likes al cargar la página
-  fetch('http://localhost:3000/likes')
-    .then(response => response.json())
-    .then(data => {
-      likeCount.textContent = `${data.likes} likes`;
-    });
-
-  // Cuando hacen clic en el botón, sumar un like
-  likeButton.addEventListener('click', () => {
-    fetch('http://localhost:3000/likes', {
-      method: 'POST',
-    })
-    .then(response => response.json())
-    .then(data => {
-      likeCount.textContent = `${data.likes} likes`;
-    });
-  });
-</script>
 </body>
 </html>
