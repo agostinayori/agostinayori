@@ -174,3 +174,30 @@ body.light .video:hover {
   margin-bottom: 2rem;
   transition: all 0.2s ease-in-out;
 }
+.video-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  border: 2px solid #bb86fc;
+  border-radius: 8px;
+  color: #bb86fc;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.video-link:hover {
+  background-color: #bb86fc;
+  color: black;
+}
+
+body.light .video-link {
+  border-color: #4b0082;
+  color: #4b0082;
+}
+
+body.light .video-link:hover {
+  background-color: #4b0082;
+  color: white;
+}
