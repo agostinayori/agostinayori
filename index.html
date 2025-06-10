@@ -106,8 +106,6 @@
   <script>
   const playlistWrapper = document.querySelector('.playlist-wrapper');
   const introWrapper = document.querySelector('.intro-wrapper');
-
-  // mismo script que ya tengo para los filtros
   const filterLinks = document.querySelectorAll('nav a');
   const posts = document.querySelectorAll('.post');
 
@@ -116,6 +114,7 @@
       e.preventDefault();
       const filter = link.getAttribute('data-filter');
 
+      // Mostrar u ocultar los posts
       posts.forEach(post => {
         if (filter === 'all' || post.classList.contains(filter)) {
           post.style.display = 'block';
@@ -124,23 +123,17 @@
         }
       });
 
-      // Mostrar u ocultar la playlist según el filtro
+      // Mostrar u ocultar la playlist
       if (playlistWrapper) {
-        if (filter === 'all') {
-          playlistWrapper.style.display = 'block';
-        } else {
-          playlistWrapper.style.display = 'none';
-        }
+        playlistWrapper.style.display = filter === 'all' ? 'block' : 'none';
+      }
+
+      // Mostrar u ocultar el título y descripción
+      if (introWrapper) {
+        introWrapper.style.display = filter === 'all' ? 'block' : 'none';
       }
     });
   });
-    if (introWrapper) {
-  if (filter === 'all') {
-    introWrapper.style.display = 'block';
-  } else {
-    introWrapper.style.display = 'none';
-  }
-}
 </script>
 </body>
 </html>
