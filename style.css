@@ -196,6 +196,31 @@ body.light .video-link {
   border-color: #4b0082;
   color: #4b0082;
 }
+.intro-thoughts {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.intro-thoughts:hover {
+  transform: scale(1.015);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Light mode version */
+body.light .intro-thoughts {
+  background-color: #ffffff;
+  color: #121212;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body.light .intro-thoughts:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
 
 body.light .video-link:hover {
   background-color: #4b0082;
