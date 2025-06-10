@@ -3,7 +3,7 @@
 🧠 Learning by doing (and Googling a lot)  
 ✨ Style powered by insomnia and curiosity
 
-## 🌍 Site
+## Site
 
 Check it out here: [agostinayori.github.io/agostinayori](https://agostinayori.github.io/agostinayori/)
 
