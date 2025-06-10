@@ -1,4 +1,7 @@
 ## Howdy 👋
+👾 First steps with GitHub  
+🧠 Learning by doing (and Googling a lot)  
+✨ Style powered by insomnia and curiosity
 
 ## 🌍 Site
 
