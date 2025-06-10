@@ -7,6 +7,11 @@ body.dark {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  background-image: url('assets/dark-mode.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body.dark h1, body.dark h2 {
@@ -56,6 +61,11 @@ body.light {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  background-image: url('assets/light-mode.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body.light h1, body.light h2 {
