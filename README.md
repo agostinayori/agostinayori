@@ -1,6 +1,6 @@
-## Hi there 👋
+## Howdy 👋
 
-## 🌍 Live Site
+## 🌍 Site
 
 Check it out here: [agostinayori.github.io/agostinayori](https://agostinayori.github.io/agostinayori/)
 
