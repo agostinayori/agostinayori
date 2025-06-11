@@ -260,3 +260,19 @@ body.light .like-button {
   font-size: 0.9rem;
   line-height: 1;
 }
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.post-date {
+  font-size: 0.75rem;
+  color: #999;
+  font-style: italic;
+}
+
+body.light .post-date {
+  color: #666;
+}
