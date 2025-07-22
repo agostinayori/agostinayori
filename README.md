@@ -1,7 +1,6 @@
 ## Howdy 👋
-👾 Baby steps with GitHub  
-🧠 Learning by doing (...and Googling a lot)  
-✨ Powered by insomnia and curiosity
+
+Baby steps with GitHub  
 
 ## Site
 
